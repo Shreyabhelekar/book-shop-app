@@ -1,6 +1,6 @@
 ## Book Shop Application
 
-A web-based platform built with **Java Servlets, JDBC, and MySQL** to modernize book inventory management. The application simplifies tasks like adding, editing, and deleting book entries, offering a user-friendly interface for all technical skill levels. 
+The Book Shop Application is a modern, web-based solution designed to simplify and optimize book inventory management. Built using Java Servlets, JDBC, and MySQL, this application addresses common challenges in traditional book management systems by offering an intuitive and efficient platform.
 
 ### Features:
 - **Real-Time Inventory Tracking**: Search and manage books efficiently.  
@@ -10,5 +10,10 @@ A web-based platform built with **Java Servlets, JDBC, and MySQL** to modernize 
 ### Benefits:
 - Streamlines operations and reduces manual errors.  
 - Enhances user satisfaction with improved reporting and transparency.  
+
+### Technologies Used
+Java Servlets
+JDBC
+MySQL
 
 This project demonstrates the power of technology in transforming traditional book management into a modern, efficient system.
