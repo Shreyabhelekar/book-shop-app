@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Register New Book</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <style>
+        .card {
+            margin-top: 50px;
+            padding: 2rem;
+        }
+    </style>
+</head>
+<body class="container d-flex justify-content-center">
+    <div class="card shadow-lg" style="width: 35rem;">
+        <h3 class="text-center text-success mb-4">Register New Book</h3>
+        <form action="register" method="post">
+            <div class="mb-3">
+                <label class="form-label">Book Name</label>
+                <input type="text" name="bookName" class="form-control" required>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Book Edition</label>
+                <input type="text" name="bookEdition" class="form-control" required>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Book Price</label>
+                <input type="text" name="bookPrice" class="form-control" required>
+            </div>
+            <div class="d-flex justify-content-between">
+                <input type="submit" value="Register" class="btn btn-success">
+                <input type="reset" value="Clear" class="btn btn-secondary">
+            </div>
+        </form>
+        <div class="text-center mt-3">
+            <a href="home.html" class="btn btn-outline-primary">Home</a>
+        </div>
+    </div>
+</body>
+</html>
