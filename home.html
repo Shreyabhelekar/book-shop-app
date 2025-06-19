@@ -1,34 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Book Store</title>
-<link rel="stylesheet" href="css/bootstrap.css">
-
+    <meta charset="UTF-8">
+    <title>Book Store Home</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .card {
+            margin-top: 60px;
+            padding: 2rem;
+        }
+        .btn-custom {
+            width: 100%;
+            margin-bottom: 1rem;
+        }
+    </style>
 </head>
-<body class="container-fluid card" style="width:40rem;">
-<h2 class="bg-danger text-white text-center">Book Registration</h2>
-<form action="register" method="post">
-    <table class="table table-hover">
-       <tr>
-        <td>Book Name</td>
-        <td><input type="text" name="bookName"></td>
-       </tr>
-       <tr>
-        <td>Book Edition</td>
-        <td><input type="text" name="bookEdition"></td>
-       </tr>
-       <tr>
-        <td>Book Price</td>
-        <td><input type="text" name="bookPrice"></td>
-       </tr>
-       <tr>
-        <td><input type="submit" value="register"></td>
-        <td><input type="reset" value="cancel"></td>
-       </tr>
-    </table>
-    <a href='bookList'>Book List</a>
-</form>
+<body class="container d-flex justify-content-center">
+    <div class="card shadow-lg" style="width: 35rem;">
+        <h2 class="text-center text-primary mb-4">Book Store Dashboard</h2>
 
+        <!-- Navigation Buttons -->
+        <a href="register.html" class="btn btn-success btn-custom">Register New Book</a>
+        <a href="bookList" class="btn btn-primary btn-custom">View All Books</a>
+        <a href="search.html" class="btn btn-info btn-custom">Search Book</a>
+    </div>
 </body>
 </html>
